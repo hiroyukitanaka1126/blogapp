@@ -1,0 +1,7 @@
+<div class="content-main">
+  <% @blog.each do|blog| %>
+    <%= render partial: "blog", locals: { blog: blog } %>
+  <% end%>
+ <%= paginate(@blog) %>
+</div>
+

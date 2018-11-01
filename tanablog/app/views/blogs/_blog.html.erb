@@ -1,0 +1,9 @@
+  <div class="content_post" >
+    <ul>
+       <li><%= simple_format(blog.text) %></li>
+          <% if user_signed_in? && current_user.id == blog.user_id %>
+          <li><button><%= link_to '編集', "/blogs/#{blog.id}/edit", method: :get %></button></li>
+          <li ><button><%= link_to '削除', "/blogs/#{blog.id}", method: :delete %></button></li>
+       <% end%>
+    </ul>
+  </div>

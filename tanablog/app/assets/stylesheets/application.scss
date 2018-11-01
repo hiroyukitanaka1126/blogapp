@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body{
+  margin:0;
+  padding:0;
+}
+
+header{
+
+
+}
+
+
+.grid-6{
+float:right;
+padding-right: 30px;
+}
+
+
+.content_post{
+  width:80%;
+  padding: 0.5em 1em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;/*文字色*/
+    background: #FFF;
+    border: solid 1px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    margin:0 auto;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+li{
+display: inline;
+margin-bottom: 30px;
+}
+
+
+.form{
+width: 80%;
+margin: 0 auto;
+
+}
+
+.list1{
+color:red;
+
+}
+
+footer{
+margin :0;
+}

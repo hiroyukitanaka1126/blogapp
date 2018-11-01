@@ -1,0 +1,10 @@
+<div class="form">
+   <%= form_for  @blog,:url => {:action=> :update} do |f| %>
+     <p>
+       <%= f.text_area :text,rows: 10 %>
+     </p>
+     <p>
+      <%= f.submit "修正"%>
+     </p>
+   <% end %>
+</div>
